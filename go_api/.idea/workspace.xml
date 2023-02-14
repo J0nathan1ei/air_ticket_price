@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fa438c9-8443-4097-94d1-92bf562a232e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../basic_design.eddx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../py_crawler/price_dao.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../py_crawler/crawler2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../py_crawler/crawler3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../py_crawler/price_crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/../py_crawler/price_crawler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +53,21 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RunManager">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_api" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build main.go" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -81,5 +92,35 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="550" y="137" key="#Deployment" timestamp="1676345841556">
+      <screen x="0" y="0" width="1916" height="958" />
+    </state>
+    <state x="550" y="137" key="#Deployment/0.0.1916.958@0.0.1916.958" timestamp="1676345841556" />
+    <state x="634" y="141" key="#Options" timestamp="1676345828644">
+      <screen x="0" y="0" width="1916" height="958" />
+    </state>
+    <state x="634" y="141" key="#Options/0.0.1916.958@0.0.1916.958" timestamp="1676345828644" />
+    <state x="534" y="124" key="#SSH_Configurations" timestamp="1676345607454">
+      <screen x="0" y="0" width="1916" height="958" />
+    </state>
+    <state x="534" y="124" key="#SSH_Configurations/0.0.1916.958@0.0.1916.958" timestamp="1676345607454" />
+    <state width="1873" height="248" key="GridCell.Tab.0.bottom" timestamp="1676345684956">
+      <screen x="0" y="0" width="1916" height="958" />
+    </state>
+    <state width="1873" height="248" key="GridCell.Tab.0.bottom/0.0.1916.958@0.0.1916.958" timestamp="1676345684956" />
+    <state width="1873" height="248" key="GridCell.Tab.0.center" timestamp="1676345684955">
+      <screen x="0" y="0" width="1916" height="958" />
+    </state>
+    <state width="1873" height="248" key="GridCell.Tab.0.center/0.0.1916.958@0.0.1916.958" timestamp="1676345684955" />
+    <state width="1873" height="248" key="GridCell.Tab.0.left" timestamp="1676345684955">
+      <screen x="0" y="0" width="1916" height="958" />
+    </state>
+    <state width="1873" height="248" key="GridCell.Tab.0.left/0.0.1916.958@0.0.1916.958" timestamp="1676345684955" />
+    <state width="1873" height="248" key="GridCell.Tab.0.right" timestamp="1676345684956">
+      <screen x="0" y="0" width="1916" height="958" />
+    </state>
+    <state width="1873" height="248" key="GridCell.Tab.0.right/0.0.1916.958@0.0.1916.958" timestamp="1676345684956" />
   </component>
 </project>

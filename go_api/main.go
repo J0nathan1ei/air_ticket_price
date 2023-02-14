@@ -9,5 +9,5 @@ func main() {
 			"message": "hello world",
 		})
 	})
-	router.Run()
+	_ = router.RunTLS(":443", "./server.crt", "./server.key")
 }

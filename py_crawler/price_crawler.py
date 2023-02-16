@@ -7,6 +7,16 @@ from pyquery import PyQuery as pq
 import re
 
 from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.options import Options
+
+
+chrome_options = Options()
+chrome_options.add_argument('--no-sandbox')
+chrome_options.add_argument('--disable-dev-shm-usage')
+chrome_options.add_argument('--headless')
+chrome_options.add_argument('blink-settings=imagesEnabled=false')
+chrome_options.add_argument('--disable-gpu')
+
 
 """从网上爬取数据"""
 # 请求头
@@ -90,9 +100,12 @@ def craw_page(webdriver):
         # 查询时间为今天
         flight_data['query_date'] = today
 
+        print("flight_data", flight_data)
+        break
+
 
 # 将每次获取到的网页的html保存写入文件
-browser = webdriver.Chrome()  # 打开浏览器
+browser = webdriver.Chrome(options=chrome_options)  # 打开浏览器
 # 获取未来十天的所有数据
 for i in range(1, 11):
     day_selected = today + datetime.timedelta(days=+i)
